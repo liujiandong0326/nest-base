@@ -11,13 +11,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  plugins: [
-    '@typescript-eslint',
-    'jest',
-    'prettier',
-    'import',
-    'unused-imports',
-  ],
+  plugins: ['@typescript-eslint', 'jest', 'prettier', 'import', 'unused-imports'],
   extends: [
     // airbnb规范
     // https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb
